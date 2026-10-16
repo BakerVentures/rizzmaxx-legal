@@ -1,0 +1,6 @@
+
+# Credentials -- never commit. `.env*.local` alone does NOT ignore `.env` itself,
+# which is the file that held a live Supabase service_role key.
+.env
+.env.*
+!.env.example
